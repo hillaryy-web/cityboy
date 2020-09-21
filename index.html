@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>INDEX</title>
+
+	   <meta charset="utf-8">
+
+	   <meta name="viewport" content="width=device-width initial scale=1">
+
+	   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+       <link rel="stylesheet" type="text/css" href="index.css">
+
+       <script text="text/javascript" src="index.js"></script>
+    </head> 
+	<body>
+        <div class="conatiner">
+	        <nav class="navbar">
+		        <a class="navbar-brand" href="#">
+		          <img src="c.png" alt="logo" style="width:150px;">CITYBOY LUXURY
+		        </a>
+		        <button  onclick="openNav()"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="main">
+				<img alt="svgImg" class="openbtn"
+					src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzUxNzE4ZCI+PHBhdGggZD0iTTI5LjI0LDM2LjEyYy0wLjk0OTg5LDAuMDAwMDkgLTEuNzE5OTEsMC43NzAxMSAtMS43MiwxLjcydjE3LjJjMC4wMDAwOSwwLjk0OTg5IDAuNzcwMTEsMS43MTk5MSAxLjcyLDEuNzJoMTEzLjUyYzAuOTQ5ODksLTAuMDAwMDkgMS43MTk5MSwtMC43NzAxMSAxLjcyLC0xLjcydi0xNy4yYy0wLjAwMDA5LC0wLjk0OTg5IC0wLjc3MDExLC0xLjcxOTkxIC0xLjcyLC0xLjcyek0zMC45NiwzOS41NmgxMTAuMDh2MTMuNzZoLTExMC4wOHYtMy40NGg5NS40NmMwLjMxMDE1LDAuMDA0MzkgMC41OTg2MywtMC4xNTg1NiAwLjc1NDk4LC0wLjQyNjQ1YzAuMTU2MzUsLTAuMjY3ODkgMC4xNTYzNSwtMC41OTkyMSAwLC0wLjg2NzFjLTAuMTU2MzUsLTAuMjY3ODkgLTAuNDQ0ODQsLTAuNDMwODQgLTAuNzU0OTgsLTAuNDI2NDVoLTk1LjQ2ek0xMzEuNTgsNDguMTZjLTAuMzEwMTUsLTAuMDA0MzkgLTAuNTk4NjMsMC4xNTg1NiAtMC43NTQ5OCwwLjQyNjQ1Yy0wLjE1NjM1LDAuMjY3ODkgLTAuMTU2MzUsMC41OTkyMSAwLDAuODY3MWMwLjE1NjM1LDAuMjY3ODkgMC40NDQ4NCwwLjQzMDg0IDAuNzU0OTgsMC40MjY0NWgzLjQ0YzAuMzEwMTUsMC4wMDQzOSAwLjU5ODYzLC0wLjE1ODU2IDAuNzU0OTgsLTAuNDI2NDVjMC4xNTYzNSwtMC4yNjc4OSAwLjE1NjM1LC0wLjU5OTIxIDAsLTAuODY3MWMtMC4xNTYzNSwtMC4yNjc4OSAtMC40NDQ4NCwtMC40MzA4NCAtMC43NTQ5OCwtMC40MjY0NXpNMjkuMjQsNzUuNjhjLTAuOTQ5ODksMC4wMDAwOSAtMS43MTk5MSwwLjc3MDExIC0xLjcyLDEuNzJ2MTcuMmMwLjAwMDA5LDAuOTQ5ODkgMC43NzAxMSwxLjcxOTkxIDEuNzIsMS43MmgxMTMuNTJjMC45NDk4OSwtMC4wMDAwOSAxLjcxOTkxLC0wLjc3MDExIDEuNzIsLTEuNzJ2LTE3LjJjLTAuMDAwMDksLTAuOTQ5ODkgLTAuNzcwMTEsLTEuNzE5OTEgLTEuNzIsLTEuNzJ6TTMwLjk2LDc5LjEyaDExMC4wOHYxMy43NmgtMTEwLjA4ek0zOC43LDg3LjcyYy0wLjMxMDE1LC0wLjAwNDM5IC0wLjU5ODYzLDAuMTU4NTYgLTAuNzU0OTgsMC40MjY0NWMtMC4xNTYzNSwwLjI2Nzg5IC0wLjE1NjM1LDAuNTk5MjEgMCwwLjg2NzFjMC4xNTYzNSwwLjI2Nzg5IDAuNDQ0ODQsMC40MzA4NCAwLjc1NDk4LDAuNDI2NDVoNzcuNGMwLjMxMDE1LDAuMDA0MzkgMC41OTg2MywtMC4xNTg1NiAwLjc1NDk4LC0wLjQyNjQ1YzAuMTU2MzUsLTAuMjY3ODkgMC4xNTYzNSwtMC41OTkyMSAwLC0wLjg2NzFjLTAuMTU2MzUsLTAuMjY3ODkgLTAuNDQ0ODQsLTAuNDMwODQgLTAuNzU0OTgsLTAuNDI2NDV6TTEyMS4yNiw4Ny43MmMtMC4zMTAxNSwtMC4wMDQzOSAtMC41OTg2MywwLjE1ODU2IC0wLjc1NDk4LDAuNDI2NDVjLTAuMTU2MzUsMC4yNjc4OSAtMC4xNTYzNSwwLjU5OTIxIDAsMC44NjcxYzAuMTU2MzUsMC4yNjc4OSAwLjQ0NDg0LDAuNDMwODQgMC43NTQ5OCwwLjQyNjQ1aDUuMTZjMC4zMTAxNSwwLjAwNDM5IDAuNTk4NjMsLTAuMTU4NTYgMC43NTQ5OCwtMC40MjY0NWMwLjE1NjM1LC0wLjI2Nzg5IDAuMTU2MzUsLTAuNTk5MjEgMCwtMC44NjcxYy0wLjE1NjM1LC0wLjI2Nzg5IC0wLjQ0NDg0LC0wLjQzMDg0IC0wLjc1NDk4LC0wLjQyNjQ1ek0xMzEuNTgsODcuNzJjLTAuMzEwMTUsLTAuMDA0MzkgLTAuNTk4NjMsMC4xNTg1NiAtMC43NTQ5OCwwLjQyNjQ1Yy0wLjE1NjM1LDAuMjY3ODkgLTAuMTU2MzUsMC41OTkyMSAwLDAuODY3MWMwLjE1NjM1LDAuMjY3ODkgMC40NDQ4NCwwLjQzMDg0IDAuNzU0OTgsMC40MjY0NWgzLjQ0YzAuMzEwMTUsMC4wMDQzOSAwLjU5ODYzLC0wLjE1ODU2IDAuNzU0OTgsLTAuNDI2NDVjMC4xNTYzNSwtMC4yNjc4OSAwLjE1NjM1LC0wLjU5OTIxIDAsLTAuODY3MWMtMC4xNTYzNSwtMC4yNjc4OSAtMC40NDQ4NCwtMC40MzA4NCAtMC43NTQ5OCwtMC40MjY0NXpNMjkuMjQsMTE1LjI0Yy0wLjk0OTg5LDAuMDAwMDkgLTEuNzE5OTEsMC43NzAxMSAtMS43MiwxLjcydjE3LjJjMC4wMDAwOSwwLjk0OTg5IDAuNzcwMTEsMS43MTk5MSAxLjcyLDEuNzJoMTEzLjUyYzAuOTQ5ODksLTAuMDAwMDkgMS43MTk5MSwtMC43NzAxMSAxLjcyLC0xLjcydi0xNy4yYy0wLjAwMDA5LC0wLjk0OTg5IC0wLjc3MDExLC0xLjcxOTkxIC0xLjcyLC0xLjcyek0zMC45NiwxMTguNjhoMTEwLjA4djguNmgtOTUuNDZjLTAuMzEwMTUsLTAuMDA0MzkgLTAuNTk4NjMsMC4xNTg1NiAtMC43NTQ5OCwwLjQyNjQ1Yy0wLjE1NjM1LDAuMjY3ODkgLTAuMTU2MzUsMC41OTkyMSAwLDAuODY3MWMwLjE1NjM1LDAuMjY3ODkgMC40NDQ4NCwwLjQzMDg0IDAuNzU0OTgsMC40MjY0NWg5NS40NnYzLjQ0aC0xMTAuMDh6TTM2Ljk4LDEyNy4yOGMtMC4zMTAxNSwtMC4wMDQzOSAtMC41OTg2MywwLjE1ODU2IC0wLjc1NDk4LDAuNDI2NDVjLTAuMTU2MzUsMC4yNjc4OSAtMC4xNTYzNSwwLjU5OTIxIDAsMC44NjcxYzAuMTU2MzUsMC4yNjc4OSAwLjQ0NDg0LDAuNDMwODQgMC43NTQ5OCwwLjQyNjQ1aDMuNDRjMC4zMTAxNSwwLjAwNDM5IDAuNTk4NjMsLTAuMTU4NTYgMC43NTQ5OCwtMC40MjY0NWMwLjE1NjM1LC0wLjI2Nzg5IDAuMTU2MzUsLTAuNTk5MjEgMCwtMC44NjcxYy0wLjE1NjM1LC0wLjI2Nzg5IC0wLjQ0NDg0LC0wLjQzMDg0IC0wLjc1NDk4LC0wLjQyNjQ1eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />
+		        </button>
+		        
+		        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		            <div id="mySidebar" class="sidebar">
+			            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			            <ul class="navbar-nav">
+			              <li class="nav-item">
+			                <a class="nav-link" href="aj.html">Home</a>
+			              </li>
+			              <li class="nav-item dropdown">
+			                <a class="nav-link dropdown-toggle" href="aj.html" id="navbardrop" data-toggle="dropdown">Tees</a>
+			                <div class="dropdown-menu">
+			                  <a class="dropdown-item" href="aj.html">Men</a>
+			                  <a class="dropdown-item" href="aj.html">women</a>
+			                </div>
+			              </li>
+			            </ul>
+		            </div>
+	            </div>
+			</nav>
+			<div id="demo" class="carousel slide carousel-fade"  data-ride="carousel">
+			
+				<!-- Indicators -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+			
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="image-fluid" src="la.jpg" alt="Los Angeles" width="100" height="100mn ">
+						<div class="centered">Centered</div>
+						<div class="carousel-caption">
+							<h2>CITYBOY<sup>&#169;</sup></h2>
+							<p>Entries in Every Monday!</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img  class="image-fluid" src="chicago.jpg" alt="Chicago" width="100" height="100">
+					</div>
+					<div class="carousel-item">
+						<img class="image-fluid" src="quin.jpg" alt="New York" width="100" height="100">
+					</div>
+				</div>
+			
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+
+			
+
+			
+
+	    </div>
+
+
+
+
+
+
+
+
+
+	   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
