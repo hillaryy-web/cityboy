@@ -1,6 +1,9 @@
 a:hover {
 	color:whitesmoke;
 }
+body {
+  background-color: lightgray;
+}
 
 li {
 	font-weight: bolder;
@@ -10,12 +13,33 @@ li {
 	color:grey;
   font-family: 'Grenze Gotisch', cursive;
   font-weight: bolder;
-	
+
 }
 
+div.gallery {
+  margin: 30px;
+  border-radius: 12px;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+   box-shadow: 7px 7px 5px grey;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 
 nav {
-  background-color:rgb(43, 41, 25);
+  background-color:black;
 }
 .menuu {
 	text-align: end;
@@ -23,8 +47,7 @@ nav {
 .sidebar {
   height: 100%;
   width: 0;
-  position: fixed;
-  z-index: 1;
+  position: fixed; 
   top: 0;
   left: 0;
   background-color: #111;
@@ -108,4 +131,52 @@ img {
   color:black;
   font-family: 'Grenze Gotisch', cursive;
   font-weight: bolder;
+}
+#white {
+  background-color: white;
+  margin: 30px;
+  border-radius: 5px;
+}
+.hoody li  {
+  display: inline-block;
+  padding: 20px;
+  color: blueviolet;
+
+}
+.hoody  {
+  text-align: center;
+  padding: 12px;
+  margin: 12px;
+  list-style-type: circle;
+
+}
+.hoody li a {
+  color:black;
+}
+.hoody a:hover {
+  color: green;
+  text-decoration: none;
+}
+.a:visited {
+  color: blueviolet;
+}
+.hoody a:active {
+  color: blue;
+}
+h2 {
+  text-align: center;
+}
+@media screen and (max-width:600px) {
+  
+  .hoody {
+    padding: 12px;
+    margin: 20px;
+  }
+  .hoody li {
+    margin: 10px;
+  
+  }
+  .visible {
+    display: none;
+  }
 }
