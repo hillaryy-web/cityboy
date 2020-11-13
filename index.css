@@ -1,9 +1,6 @@
 a:hover {
 	color:whitesmoke;
 }
-body {
-  background-color: lightgray;
-}
 
 li {
 	font-weight: bolder;
@@ -24,7 +21,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-   box-shadow: 7px 7px 5px grey;
+   box-shadow: 7px 7px 5px lightblue;
 }
 
 div.gallery img {
@@ -61,16 +58,35 @@ nav {
 .sidebar a  {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color:purple;
+  font-size: 30px;
+  color:lightblue;
   display: block;
   transition:0.2s;
-}
-.dropdown-menu {
-  background-color: #111;
-}
+  font-family: 'Caveat Brush', cursive;
 
-
+}
+.downmenu .nav-link {
+  color:lightblue;
+  font-size: 20px;
+  font-family: 'Caveat Brush', cursive;
+}
+.downmenu h3 {
+   font-family: 'Grenze Gotisch', cursive;
+}
+.nav-link:hover {
+  color: navy;
+  font-size: 25px;
+}
+.talks a {
+  font-size: 30px;
+  color: lightblue;
+  text-decoration: underline;
+  font-family: 'Caveat Brush', cursive;
+}
+.talks a:hover {
+  font-size: 25px;
+  color:navy;
+}
 .sidebar > a:hover {
   color:white;
 }
@@ -96,35 +112,39 @@ ul li a{
   .sidebar a {font-size: 18px;}
 }
 
-.carousel-inner  img{
-  width:100%;
-  height: 570px;
-  border-radius: 30px;
-  object-fit: cover;
 
-}
-#demo {
-  margin:15px;
-  width: auto;
+.carousel-inner .image-fluid{
+  width:100vw;
+  object-fit: cover;
+  height: 750px;
   
 
+
+
 }
+
+
 img {
   width:100%;
   height:auto;
-  
-  
 }
-.carousel-caption{
+
+.carousel-caption {
     color: hotpink;
     font-weight: bolder;
+}
+#demo {
+  height: 700px;
 }
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Nosifer', cursive; 
+  color:lightskyblue;
 }
+
 .carousel-item {
   position: relative;
   text-align: center;
@@ -132,9 +152,12 @@ img {
   font-family: 'Grenze Gotisch', cursive;
   font-weight: bolder;
 }
+.carousel-item img{
+  width: 100%;
+
+}
 #white {
   background-color: white;
-  margin: 30px;
   border-radius: 5px;
 }
 .hoody li  {
@@ -180,13 +203,63 @@ h2 {
     display: none;
   }
 }
-footer {
+.page-footer {
   background-color: black;
   color:white;
-  overflow-x: hidden;
+  overflow-x:hidden;
 
+  height: auto;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
+
+
 
 #town {
   padding: 10px;
+}
+#button {
+  text-align: center;
+  margin: 10x;
+  height: 100px
+
+}
+.seemore {
+  color:lilac;
+  border-radius: 12px;
+  border-color: lightblue;
+  width: 200px;
+  height: 50px;
+  background-color:lightblue;
+  box-shadow:10px 10px lightblue;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 30px;
+}
+button:hover {
+  color: black;
+  box-shadow: 0px 0px;
+  cursor:alias;
+
+}
+.downmenu {
+  display: block;
+  list-style-type:none;
+  text-align: left;
+}
+
+.downmenu a{
+  text-align: left;
+  display: block;
+  padding: 8px 8px 8px 32px;
+
+}
+.formenu {
+  text-decoration: underline;
+  margin: 50px;
+}
+.hillary {
+  text-align: center;
 }
