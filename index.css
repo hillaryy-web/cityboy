@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
 a:hover {
 	color:whitesmoke;
 }
@@ -13,34 +20,11 @@ li {
 
 }
 
-div.gallery {
-  margin: 30px;
-  border-radius: 12px;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-   box-shadow: 7px 7px 5px lightblue;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
 nav {
   background-color:black;
+  
 }
-.menuu {
-	text-align: end;
-}
+
 .sidebar {
   height: 100%;
   width: 0;
@@ -65,28 +49,12 @@ nav {
   font-family: 'Caveat Brush', cursive;
 
 }
-.downmenu .nav-link {
-  color:lightblue;
-  font-size: 20px;
-  font-family: 'Caveat Brush', cursive;
-}
-.downmenu h3 {
-   font-family: 'Grenze Gotisch', cursive;
-}
+
 .nav-link:hover {
   color: navy;
   font-size: 25px;
 }
-.talks a {
-  font-size: 30px;
-  color: lightblue;
-  text-decoration: underline;
-  font-family: 'Caveat Brush', cursive;
-}
-.talks a:hover {
-  font-size: 25px;
-  color:navy;
-}
+
 .sidebar > a:hover {
   color:white;
 }
@@ -112,29 +80,20 @@ ul li a{
   .sidebar a {font-size: 18px;}
 }
 
-
 .carousel-inner .image-fluid{
   width:100vw;
   object-fit: cover;
   height: 750px;
-  
-
-
-
 }
-
 
 img {
   width:100%;
   height:auto;
 }
 
-.carousel-caption {
-    color: hotpink;
-    font-weight: bolder;
-}
 #demo {
   height: 700px;
+  overflow: hidden;
 }
 .centered {
   position: absolute;
@@ -149,60 +108,36 @@ img {
   position: relative;
   text-align: center;
   color:black;
-  font-family: 'Grenze Gotisch', cursive;
   font-weight: bolder;
 }
 .carousel-item img{
   width: 100%;
 
 }
-#white {
-  background-color: white;
-  border-radius: 5px;
-}
-.hoody li  {
-  display: inline-block;
-  padding: 20px;
-  color: blueviolet;
 
+a:visited {
+  color:blueviolet;
 }
-.hoody  {
-  text-align: center;
-  padding: 12px;
-  margin: 12px;
-  list-style-type: circle;
 
-}
-.hoody li a {
-  color:black;
-}
-.hoody a:hover {
-  color: green;
-  text-decoration: none;
-}
-.a:visited {
-  color: blueviolet;
-}
-.hoody a:active {
-  color: blue;
-}
 h2 {
   text-align: center;
 }
-@media screen and (max-width:600px) {
-  
-  .hoody {
-    padding: 12px;
-    margin: 20px;
-  }
-  .hoody li {
-    margin: 10px;
-  
-  }
-  .visible {
-    display: none;
-  }
+.shopnowclass {
+  border:2px solid black;
+  transition-duration: 0.1s;
+  background-color: black;
+  text-align: center; 
+  color: white;
+  width: 250px; 
+  border-radius: 12px;
 }
+.shopnowclass:hover {
+   box-shadow: 0 12px 16px 0 gray, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.viewblog:hover {
+   box-shadow: 0 12px 16px 0 gray, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .page-footer {
   background-color: black;
   color:white;
@@ -216,34 +151,21 @@ h2 {
   width: 100%;
 }
 
-
-
 #town {
   padding: 10px;
 }
-#button {
-  text-align: center;
-  margin: 10x;
-  height: 100px
-
-}
-.seemore {
-  color:lilac;
-  border-radius: 12px;
-  border-color: lightblue;
-  width: 200px;
-  height: 50px;
-  background-color:lightblue;
-  box-shadow:10px 10px lightblue;
-  font-family: 'Caveat Brush', cursive;
+.talks a {
   font-size: 30px;
+  color: lightblue;
+  text-decoration: underline;
+  font-family: 'Caveat Brush', cursive;
 }
-button:hover {
-  color: black;
-  box-shadow: 0px 0px;
-  cursor:alias;
 
+.talks a:hover {
+  font-size: 25px;
+  color:navy;
 }
+
 .downmenu {
   display: block;
   list-style-type:none;
@@ -253,13 +175,122 @@ button:hover {
 .downmenu a{
   text-align: left;
   display: block;
-  padding: 8px 8px 8px 32px;
+  padding: 4px 4px 4px 20px;
 
 }
 .formenu {
   text-decoration: underline;
   margin: 50px;
 }
+.downmenu .nav-link {
+  color:lightblue;
+  font-size: 20px;
+  font-family: 'Caveat Brush', cursive;
+}
+.downmenu h3 {
+   font-family:'Caveat Brush', cursive;
+   font-size: 30px;
+}
 .hillary {
-  text-align: center;
+  text-align: left;
+  font-size:15px;
+  font-family: 'Libre Baskerville', serif;
+  margin:10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+#rows  {
+  padding:0;
+  margin: 0;
+  height: 100%;
+}
+.column {
+  width:25%;
+}
+.column img{
+  max-width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.columnone {
+  width:75%;
+  position: relative;
+
+
+  
+}
+
+.columnone img{
+  max-width: 100%;
+  height: 50%;
+  object-fit: cover;
+
+}
+#rows div img {
+  height: 500px;
+}
+.dripping {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nosifer', cursive; 
+  color:lightskyblue;
+
+  
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 50%;
+  }
+  .columnone {
+    width: 50%;
+  }
+
+.downmenu a {
+  float: left;
+  text-align: left;
+}
+#hideplease {
+  visibility: hidden;
+
+}
+.dripping {
+   bottom:8px;
+  left: 16px;
+}
+.shopnowclass {
+  width:150px;
+  float:center;
+  text-align:center; 
+  background-color:lightblue;
+  margin: auto;
+  animation-name: shopnowbutton;
+  animation-duration: 5s;
+}
+}
+@keyframes shopnowbutton {
+  0% {background-color:lightgreen;}
+  100% { background-color:black;}
 }
